@@ -21,7 +21,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'klausen-tech', // Usually your GitHub org/user name.
-  projectName: 'sensus-site', // Usually your repo name.
+  projectName: 'sensus', // Usually your repo name.
   deploymentBranch: 'deployment', // The site will be deployed on this branch.
 
   onBrokenLinks: "throw",
@@ -45,7 +45,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            "https://github.com/klausen-tech/sensus-site/tree/source/",
+            "https://github.com/klausen-tech/sensus/tree/source/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -73,7 +73,7 @@ const config = {
             label: "Docs",
           },
           {
-            href: "https://github.com/klausen-tech/sensus-site",
+            href: "https://github.com/klausen-tech/sensus",
             label: "GitHub",
             position: "right",
           },
@@ -87,7 +87,7 @@ const config = {
             items: [
               {
                 label: "GitHub",
-                href: "https://github.com/klausen-tech/sensus-site",
+                href: "https://github.com/klausen-tech/sensus",
               },
             ],
           },
