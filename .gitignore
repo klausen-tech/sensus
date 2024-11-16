@@ -20,3 +20,6 @@ yarn-debug.log*
 yarn-error.log*
 
 .direnv
+node_modules
+build
+.docusaurus
